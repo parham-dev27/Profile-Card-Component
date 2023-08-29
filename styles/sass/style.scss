@@ -21,6 +21,7 @@ body {
     background-color: var.$white;
     border-radius: 16px;
     overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(var.$dark-gray, 0.5);
     &__header {
         height: 140px;
         background-color: lighten(var.$dark-cyan, 30);
