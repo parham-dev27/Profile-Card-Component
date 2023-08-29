@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="parham-dev27" />
+        <meta
+            name="description"
+            content="Frontend Mentor | Profile card component" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png" />
+        <title>Frontend Mentor | Profile card component</title>
+        <link rel="stylesheet" href="styles/css/style.css" />
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <main>
+            <section class="card">
+                <div class="card__header">
+                    <img
+                        src="images/image-victor.jpg"
+                        alt="Profile Picture"
+                        title="Victor Crest"
+                        width="96"
+                        height="96" />
+                </div>
+                <div class="card__main">
+                    <h1 class="card__main--title">
+                        <span class="card__main--title--name">
+                            Victor Crest
+                        </span>
+                        <span class="card__main--title--age">26</span>
+                    </h1>
+                    <p class="card__main--location">London</p>
+                </div>
+                <hr />
+                <div class="card__footer">
+                    <div class="card__footer__ranks">
+                        <p>
+                            <span class="card__footer__ranks--number">80K</span>
+                            <br />
+                            Followers
+                        </p>
+                        <p>
+                            <span class="card__footer__ranks--number">
+                                803K
+                            </span>
+                            <br />
+                            Likes
+                        </p>
+                        <p>
+                            <span class="card__footer__ranks--number">
+                                1.4K
+                            </span>
+                            <br />
+                            Photos
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. <br />
+            Coded by
+            <a href="https://github.com/parham-dev27">parham-dev27</a>.
+        </footer>
+    </body>
 </html>
